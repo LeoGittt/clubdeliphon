@@ -4,10 +4,7 @@ import Categories from "@/components/categories"
 import Newsletter from "@/components/newsletter"
 import BackToTop from "@/components/back-to-top"
 import Testimonials from "@/components/testimonials"
-// import LatestNews from "@/components/latest-news"
 import FeaturedCollection from "@/components/featured-collection"
-// import BrandsShowcase from "@/components/brands-showcase"
-
 
 export default function Home() {
   return (
@@ -16,9 +13,7 @@ export default function Home() {
       <FeaturedProducts />
       <FeaturedCollection />
       <Categories />
-      {/* <BrandsShowcase /> */}
       <Testimonials />
-      {/* <LatestNews /> */}
       <Newsletter />
       <BackToTop />
     </main>
